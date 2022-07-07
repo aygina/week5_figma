@@ -1,0 +1,118 @@
+
+header,
+nav,
+main {
+    display: flex;
+    width: 100vw;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 10vh;
+    flex: 1 1 content;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: auto;
+    height: 8vh;
+    background-color: #55B74C;
+}
+
+main {
+    /* картинка */
+    padding: 10px;
+    height: 50vh;
+    justify-content: center;
+}
+
+
+.menu { 
+    /* текст внутри кнопок */
+    background-color: #55B74C;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu:hover {
+    background-color: #FFBDAF;
+}
+
+#address1 {
+    width: 107px;
+    height: 19px;
+    left: 610px;
+    top: 99px;
+
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #898989;
+}
+
+#city {
+    display: flex;
+    flex-direction: column;
+    width: 81px;
+    height: 25px;
+    left: 610px;
+    top: 121px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#office1 {
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #898989;
+}
+
+#heart {
+    width: 29px;
+    height: 27px;
+    left: 1371px;
+    top: 119px;
+    padding: 5px;
+}
+
+#tel {
+    text-decoration: none;
+    width: 147px;
+    height: 25px;
+    left: 843px;
+    top: 121px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #55B74C;
+}
+
+#logo {
+    width: 175px;
+    height: 51px;
+    left: 200px;
+    top: 95px;
+}
